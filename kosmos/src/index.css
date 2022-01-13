@@ -6,6 +6,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #f3f3f3;
+  color: #112031;
 }
 
 /* CSS Reset using https://www.joshwcomeau.com/css/custom-css-reset/ */

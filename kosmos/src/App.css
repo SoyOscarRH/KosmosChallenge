@@ -1,42 +1,65 @@
-.App {
-  text-align: center;
+.app {
+  padding: 2rem;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.field {
+  background-color: #c9ccd5;
+  margin: 0.5rem 0;
+  border-radius: 0.3rem;
+  padding: 0.5rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+label {
+  display: block;
+  margin-bottom: 0.5rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.preview {
+  padding: 1rem;
 }
 
-.App-link {
-  color: #61dafb;
+.divider {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.adder {
+  padding: 0.3rem;
 }
 
-button {
-  font-size: calc(10px + 2vmin);
+.optionsToAdd {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
 }
+
+.editor {
+  background-color: #cbd2e7;
+  padding: 1rem;
+  border-radius: 0.3rem;
+}
+
+.option {
+  margin-left: 1.5rem;
+  display: block;
+}
+
+input {
+  margin: 0.2rem;
+}
+
+h3 {
+  margin: 1rem 0;
+}
+
+.delete {
+  margin-left: 3rem;
+}
+
+summary {
+  margin: 1.5rem 0;
+}
+
